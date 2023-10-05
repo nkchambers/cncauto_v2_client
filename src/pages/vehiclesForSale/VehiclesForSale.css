@@ -1,0 +1,20 @@
+.vehiclesForSaleTitle {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.8;
+    padding: 30px;
+}
+
+.vehiclesForSaleContainer:hover {
+    transform: scale(1.099);
+    transition: 0.5s;
+}
+
+.vehiclesForSalePrice {
+    color: rgb(45, 227, 142);
+    font-size: 20px;
+    margin-top: 5px;
+}

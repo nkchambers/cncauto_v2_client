@@ -1,0 +1,71 @@
+.vehicleForSaleTitle {
+    color: white;
+    letter-spacing: 1px;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+.vehicleForSaleAddress {
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+.vehicleForSaleDescTitle {
+    color: white;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+.vehicleForSaleDesc {
+    opacity: 0.85;
+}
+
+.vehicleForSaleNote {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.vehicleForSaleNote:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.noteTitle {
+    color: rgb(45, 227, 142);
+    letter-spacing: 1px;
+}
+
+.forSaleContactButton {
+    background-color: rgb(36, 34, 34);
+    border: 2px solid rgb(45, 227, 142);
+    border-radius: 12px;
+    padding: 10px;
+    width: 75%;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.forSaleContactButton:hover {
+    border: 2px solid rgb(45, 227, 142);
+    border-radius: 12px;
+    padding: 10px;
+    width: 75%;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+    background-color: rgb(45, 227, 142);
+    color: black;
+}
+
+.extraInfoTitle {
+    color: white;
+    font-style: italic;
+    opacity: 0.85;
+}

@@ -1,0 +1,108 @@
+.loginContainer {
+    background-color: black;
+    width: 100%;
+    padding: 40px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: auto;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background-color: black;
+}
+
+.login-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F1F1F;
+    padding: 50px;
+    z-index: 999;
+}
+
+.login-form h1 {
+    color: white;
+    opacity: 0.75;
+    padding-bottom: 30px;
+    font-size: xx-large;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1F1F1F;
+}
+
+.login-form input {
+    background-color: #333333;
+    border: none;
+    color: white;
+    opacity: 0.8;
+    font-size: 16px;
+    padding: 10px 15px; 
+    width: 100%;
+}
+
+.login-logo {
+    position: absolute;
+    left: 0%;
+    right: 15%;
+    top: 78%;
+    bottom: 40%;
+    transform: translateY(-50%, -50%);
+}
+
+.login-form a {
+    color: white;
+    opacity: 0.7;
+}
+
+.loginBrandLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    opacity: 0.7;
+    color: lightgray;
+    color: white;
+    letter-spacing: -15px;
+}
+
+#loginBrandChar {
+    padding-top: 45px;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+
+#loginBrandAuto {
+    padding-top: 40px;
+    padding-left: 35px;
+    letter-spacing: 5px;
+}
+
+.loginButton:hover {
+    font-weight: 600;
+    background-color: rgb(45, 227, 142);
+    color: black;
+}

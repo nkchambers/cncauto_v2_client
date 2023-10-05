@@ -1,0 +1,32 @@
+.bookingsContainer {
+    font: sans-serif;
+}
+
+.bookingsTitle {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.8;
+    padding: 30px;
+}
+
+.bookingLink {
+    margin: 50px 10px;
+    background-color: #101314;
+    border-right: 3px solid rgb(45, 227, 142);
+}
+
+.bookingLink:hover {
+    text-decoration: none;
+    color: rgb(45, 227, 142);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.bookingDetails {
+    opacity: 0.8;
+}
+

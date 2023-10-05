@@ -1,0 +1,35 @@
+.photoGalleryContainer {
+    z-index: 999;
+    position: absolute;
+    inset: 0;
+}
+
+.closeButton {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #30383b;
+    color: white;
+    opacity: 0.7;
+    padding: 8px 15px;
+    border: 2px solid rgb(45, 227, 142);
+    border-radius: 15px;
+}
+
+.closeButton:hover {
+    color: black;
+    opacity: 1;
+    background-color: rgb(45, 227, 142);
+}
+
+.showPhotosButton {
+    background-color: black;
+    opacity: 0.65;
+}
+
+.showPhotosButton:hover {
+    background-color: rgb(45, 227, 142);
+    opacity: 0.9;
+    color: black;
+}

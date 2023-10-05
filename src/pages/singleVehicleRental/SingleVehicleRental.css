@@ -1,0 +1,229 @@
+.vehicleRentalTitle {
+    color: white;
+    letter-spacing: 1px;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+.vehicleRentalAddress {
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+.vehicleRentalDescTitle {
+    color: white;
+    font-style: italic;
+    opacity: 0.85;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.vehicleRentalDesc {
+    opacity: 0.85;
+}
+
+.dateRangeSearch {
+    display: flex;
+    flex-direction: column;
+}
+
+.rentalInfoTitle {
+    font-style: italic;
+    opacity: 0.85;
+    font-size: 36px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.rentalBasicFContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rentalBasicFeatures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: scale(1.5);
+    letter-spacing: 1px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.rentalBasicFeatures .faIcons {
+    transform: scale(2.5);
+    color: rgb(45, 227, 142);
+    opacity: 0.9;
+}
+
+.leftCol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.rentalEconFeature {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 5px;
+}
+
+.rentalEconFeature p {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.rentalNumDoors {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 30px;
+}
+
+.rentalNumDoors p {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.faDoorIcon {
+    transform: rotate(90deg) scale(2.5);
+    color: rgb(45, 227, 142);
+    opacity: 0.9;
+}
+
+.rightCol {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.rentalGasType {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 5px;
+}
+
+.rentalGasType p {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.rentalNumSeats {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rentalNumSeats p {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.featuresInfoTitle {
+    color: white;
+    font-style: italic;
+    opacity: 0.85;
+    letter-spacing: 1px;
+}
+
+.featureItem {
+    border-bottom: 1px solid rgb(172, 168, 168);
+}
+
+.circleCheckIcon {
+    color: rgb(45, 227, 142);
+}
+
+.vehicleBenefits {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+
+.vehicleBenefits .faIcons {
+    transform: scale(1.5);
+    color: rgb(45, 227, 142);
+}
+
+.benefitsTitle {
+    font-size: 36px;
+    font-style: italic;
+    padding-top: 20px;
+    opacity: 0.9;
+    padding-bottom: 20px;
+}
+
+.cancellation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 35px;
+    padding: 10px;
+}
+
+.distanceTop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 35px;
+    padding: 10px;
+}
+
+.insuranceCoverage {
+    padding: 0px;
+}
+
+.insuranceTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.listItems {
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.benefitItems { 
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.locationDotIcon {
+    color: rgb(45, 227, 142);
+    transform: scale(1.25);
+}
+
+.pickupLocationTitle {
+    opacity: 0.85;
+    font-style: italic;
+    padding-top: 30px;
+    font-size: 34px;
+}
+
+.mapLocation {
+    opacity: 0.85;
+    padding: 0px;
+}

@@ -1,0 +1,135 @@
+.homeWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.homeHeaderImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 99vw;
+    padding-top: 85px;
+}
+
+.homeHeaderImg img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+}
+
+.missionServiceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    padding: 10px;
+    margin: 30px 0px;
+}
+
+.missionServiceContainer .faIcons {
+    color: rgb(45, 227, 142);
+}
+
+.missionTitle {
+    font-size: 36px;
+    font-style: italic;
+    padding: 20px 0px;
+    opacity: 0.9;
+    margin: 10px;
+}
+
+.missionDesc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 24px;
+    opacity: 0.9;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+.serviceLocationContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesContainer {
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.servicesTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    padding-left: 50px;
+}
+
+.servicesTitle {
+    font-size: 36px;
+    font-style: italic;
+    padding: 10px 0px;
+    opacity: 0.9;
+}
+
+.serviceItemList {
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.serviceItems { 
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.locationsContainer {
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.locationsTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    padding-left: 50px;
+}
+
+.locationsTitle {
+    font-size: 36px;
+    font-style: italic;
+    padding: 10px 0px;
+    opacity: 0.9;
+}
+
+.locationItemList {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.locationItems { 
+    padding-top: 10px;
+    padding-left: 150px;
+}
+

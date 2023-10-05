@@ -1,0 +1,98 @@
+.navbar {
+    width: 100%;
+    background-color: #101314;
+    font-size: 24px;
+    padding: 5px 20px;
+}
+
+.brandLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: -13px;
+    margin-top: -20px;
+}
+
+#brandChar {
+    padding-top: 45px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+
+#brandAuto {
+    padding-top: 40px;
+    padding-left: 50px;
+    letter-spacing: 5px;
+}
+
+.offcanvas-title {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 500;
+    margin: 5px;
+    width: 100%;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    background-color: rgb(45, 227, 142);
+    color: black;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 227, 142);
+    color: black;
+    border: 3px solid #2d3135;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.dropdown-item {
+    font-size: 22px;
+}
+
+#logoutItem:hover {
+    border: 2px solid rgb(45, 227, 142);
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.btn {
+    border: 2px solid rgb(45, 227, 142);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: rgb(45, 227, 142);
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+}

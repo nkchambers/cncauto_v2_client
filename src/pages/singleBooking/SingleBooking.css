@@ -1,0 +1,250 @@
+
+.bookingTitle {
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+.bookingAddress {
+    align-items: center;
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+.bookingInfo {
+    background-color: black;
+    letter-spacing: 1px;
+    opacity: 0.85;
+}
+
+.bookingPrice {
+    background-color: #101314;
+    color: rgb(45, 227, 142);
+    border: 2px solid rgb(45, 227, 142);
+}
+
+.bookingDesc {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.bookingBasicFContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: auto;
+}
+
+.basicFeaturesTitle {
+    font-style: italic;
+    opacity: 0.85;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookingBasicFeatures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    transform: scale(1.3);
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.bookingBasicFeatures .faIcons {
+    transform: scale(2.2);
+    color: rgb(45, 227, 142);
+    opacity: 0.9;
+}
+
+.econFeature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.econFeature p {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.numDoors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.numDoors p {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.faBookingDoorIcon {
+    transform: rotate(90deg) scale(2.2);
+    color: rgb(45, 227, 142);
+    opacity: 0.9;
+}
+
+.gasType {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gasType p {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.numSeats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.numSeats p {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.bookingLeftCol {
+    display: inline-block;
+    align-items: center;
+    padding: 40px;
+}
+
+.bookingRightCol {
+    display: inline-block;
+    align-items: center;
+}
+
+.featuresInfoTitle {
+    color: white;
+    font-style: italic;
+    opacity: 0.85;
+    letter-spacing: 1px;
+}
+
+.featureItem {
+    border-bottom: 1px solid rgb(172, 168, 168);
+}
+
+.circleCheckIcon {
+    color: rgb(45, 227, 142);
+}
+
+.vehicleBenefits {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    padding: 40px;
+}
+
+.vehicleBenefits .faIcons {
+    transform: scale(1.5);
+    color: rgb(45, 227, 142);
+}
+
+.bookingBenefitsTitle {
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 50px;
+    opacity: 0.9;
+    padding-bottom: 30px;
+}
+
+.cancellation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 35px;
+    padding-top: 50px;
+}
+
+.distanceTop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    gap: 35px;
+    padding-top: 50px;
+}
+
+.insuranceCoverage {
+    padding: 0px;
+}
+
+.insuranceTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.listItems {
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 2px;
+    padding-bottom: 80px;
+}
+
+.benefitItems { 
+    padding-top: 10px;
+    padding-left: 100px;
+    
+}
+
+.locationDotIcon {
+    color: rgb(45, 227, 142);
+    padding-top: 30px;
+    transform: scale(1.25);
+}
+
+.bookingLocationTitle {
+    opacity: 0.85;
+    font-style: italic;
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+.mapLocation {
+    opacity: 0.85;
+    padding-bottom: 20px;
+}
+
+.cancelButton {
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border: 2px solid rgb(45, 227, 142);
+    background-color: rgb(33, 37, 41);
+    padding: 12px 0px;
+}
+
+.cancelButton:hover {
+    background-color: rgb(33, 37, 41);
+    color: rgb(254, 74, 74);
+    box-shadow: rgb(254, 74, 74) 0px 2px 4px 0px, rgb(254, 74, 74) 0px 2px 16px 0px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 12px 0px;
+}

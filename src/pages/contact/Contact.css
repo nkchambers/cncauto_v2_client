@@ -1,0 +1,20 @@
+.contactContainer {
+    width: 100%;
+    height: auto;
+    position: cover;
+}
+
+.contactBackground {
+    /* Set rules to fill background */
+    min-width: auto;
+    min-height: 100%;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: absolute;
+    top: 10;
+    left: 0;
+}

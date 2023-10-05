@@ -1,0 +1,32 @@
+label {
+    opacity: 0.8;
+}
+
+.faIcons {
+    transform: scale(1.5);
+}
+
+.vehicleBackupCamera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vehicleIconWifi {
+    transform: rotate(180deg);
+}
+
+.steeringWheelIcon {
+    rotate: 90deg;
+    transform: scale(1.5);
+}
+
+.numberOneIcon {
+    margin-left: -10px;
+}
+
+
+.plusIcon {
+    margin-left: -10px;
+}
