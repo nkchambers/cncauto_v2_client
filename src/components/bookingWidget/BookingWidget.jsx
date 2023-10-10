@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { differenceInCalendarDays } from 'date-fns';
 import axios from 'axios';
 import './BookingWidget.css';
 import { Navigate } from 'react-router-dom';
 import { UserContext } from '../../userContext/UserContext';
 import { DatePicker, Space } from 'antd';
+import StripeCheckout from 'react-stripe-checkout';
 
 
 
@@ -32,12 +32,6 @@ const BookingWidget = ({ vehicleRental }) => {
         setTotalHours(values[1].diff(values[0], 'hours'));
     }
 
-
-    // let numOfDays = 0;
-
-    // if (checkIn && checkOut) {
-    //     numOfDays = differenceInCalendarDays(new Date(checkOut), new Date(checkIn));
-    // }
     
 
     useEffect(() => {
@@ -47,12 +41,12 @@ const BookingWidget = ({ vehicleRental }) => {
         }
     }, [user]);
 
-
-    async function bookVehicleRental() {
+    async function onToken(token) {
         if (user) {
             const response = await axios.post('/bookings', {
-                checkIn, 
-                checkOut,  
+                token,
+                checkIn,
+                checkOut, 
                 name,
                 email, 
                 phoneNumber, 
@@ -69,6 +63,29 @@ const BookingWidget = ({ vehicleRental }) => {
             setRedirect('/register');
         }
     }
+
+
+    // async function bookVehicleRental() {
+    //     // if (user) {
+    //     //     const response = await axios.post('/bookings', {
+    //     //         checkIn,
+    //     //         checkOut, 
+    //     //         name,
+    //     //         email, 
+    //     //         phoneNumber, 
+    //     //         vehicleRental: vehicleRental._id,
+    //     //         totalHours,
+    //     //         totalPrice: Math.ceil(totalHours / 24) * vehicleRental.pricePerDay
+    //     //     });
+    
+    //     //     const bookingId = response.data._id;
+    //     //     setRedirect(`/account/bookings/${bookingId}`);
+    //     // }
+    //     // else {
+    //     //     alert('Create an account or login to book vehicle');
+    //     //     setRedirect('/register');
+    //     // }
+    // }
 
     if (redirect) {
         return <Navigate to={redirect} />
@@ -87,6 +104,7 @@ const BookingWidget = ({ vehicleRental }) => {
                         <RangePicker
                             showTime={{ format: 'hh:mm a' }}
                             format='MMM Do YYYY hh:mm a'
+                            minuteStep={'15'}
                             onChange={selectDates}
                             style={{padding: '15px', margin: '20px 10px'}}
                         />
@@ -126,12 +144,21 @@ const BookingWidget = ({ vehicleRental }) => {
                     )
                 }
             </div>
-            <button onClick={bookVehicleRental} className='bookButton rounded-2xl w-full mt-4'>
-                Book Rental Vehicle
-                {totalHours > 0 && (
-                    <span> | ${Math.ceil(totalHours / 24) * vehicleRental.pricePerDay}</span>
-                )}
-            </button>
+            <StripeCheckout
+                billingAddress
+                shippingAddress
+                token={onToken}
+                amount={(Math.ceil(totalHours / 24) * vehicleRental.pricePerDay) * 100}
+                currency='usd'
+                stripeKey="pk_test_51McbK7EoEvigZp724I3Dvpfl9vBJUWSDsAfeagWFrNtGlk3Rs2qnBI9olkSRCf4KSJR1CXwWhBD9cXXJG1cI4uPB00uxYM1p2y"
+            >
+                <button className='bookButton rounded-2xl w-full mt-4'>
+                    Book Rental Vehicle
+                    {totalHours > 0 && (
+                        <span> | ${Math.ceil(totalHours / 24) * vehicleRental.pricePerDay}</span>
+                    )}
+                </button>
+            </StripeCheckout>
         </div>
     )
 }

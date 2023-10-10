@@ -37,7 +37,7 @@ const UserProfile = () => {
             <h2 className='profileTitle'>Account | Profile</h2>
 
             {subpage === 'profile' && (
-                <div className='userInfoContainer'>
+                <div className='userInfoContainer text-2xl'>
                     <p>
                         Logged in as {user.firstName} {user.lastName} 
                         <br /> 

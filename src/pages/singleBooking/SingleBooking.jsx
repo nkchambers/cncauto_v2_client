@@ -180,7 +180,7 @@ const SingleBooking = () => {
                         width='100%'
                         height="600"
                         loading="lazy"
-                        allowfullscreen
+                        allowFullScreen
                         src={booking.vehicleRental.mapImage}>
                     </iframe>
                 </div>

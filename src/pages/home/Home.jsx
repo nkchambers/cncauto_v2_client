@@ -25,7 +25,7 @@ const Home = () => {
 
                     <h3 className='missionTitle font-semibold'>Our Mission</h3>
                     <p className='missionDesc'>
-                        Here at C&C Auto we're car enthusiasts on a mission to provide high quality rental vehicles suitable for any occassion and a thrill to drive, all at affordable daily prices. 
+                        Here at C&C Auto we are car enthusiasts on a mission to provide high quality rental vehicles suitable for any occassion and a thrill to drive, all at affordable daily prices. 
                         Whether you want to take a car for a test drive or need a fun car to drive while on vacation, rest assured, we have you covered!
                     </p>
 
@@ -41,7 +41,7 @@ const Home = () => {
 
                         <div className="serviceItemList">
                             <p className="serviceItems">- Vehicle Rentals</p>
-                            <p className="serviceItems">- Vehicles For Sale</p>
+                            <p className="serviceItems">- Vehicles Sales</p>
                         </div>
 
                         <hr className='my-12' />
