@@ -24,7 +24,7 @@ const VehicleRentalGallery = ({ vehicleRental }) => {
                             <img
                                 src={'http://localhost:5000/uploads/' + photo}
                                 alt=""
-                                width='1200px'
+                                width='900px'
                                 height='auto'
                             />
                         </div>

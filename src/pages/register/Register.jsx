@@ -55,7 +55,7 @@ const Register = () => {
                     src={LoginBackground}
                     alt="sleek car background"
                 />
-                <div className='register-logo'>
+                {/* <div className='register-logo'>
                     <div className="d-flex justify-content-center">
                         <a href="/" style={{ textDecoration: "none" }}>
                             <div className="registerBrandLogo">
@@ -66,7 +66,7 @@ const Register = () => {
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className='registerFormContainer'>
@@ -102,7 +102,6 @@ const Register = () => {
                         required
                     />
                     <button className='registerButton btn1 mt-3 mb-3'>REGISTER</button>
-                    <hr className='pb-3'/>
                     <Link to='/login'>Already a member? Click Here to Login</Link>
                 </form>
             </div>

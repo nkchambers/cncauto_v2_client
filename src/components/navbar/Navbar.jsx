@@ -192,11 +192,11 @@ const Navbar = () => {
                                     </a>
                                 </li>
                             </ul>
-                            <form class="mt-5" role="search">
+                            {/* <form class="mt-5" role="search">
                                 <p className='searchTitle mb-3'>Search rental vehicles</p>
                                 <input class="form-control text-lg" type="search" placeholder="Search" aria-label="Search"/>
                                 <button class="btn w-full mt-2" type="submit">Search</button>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </div>

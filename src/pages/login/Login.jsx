@@ -50,7 +50,7 @@ const Login = () => {
                     src={LoginBackground}
                     alt="sleek car background"
                 />
-                <div className='login-logo'>
+                {/* <div className='login-logo'>
                     <div className="d-flex justify-content-center">
                         <a href="/" style={{ textDecoration: "none" }}>
                             <div className="loginBrandLogo">
@@ -61,7 +61,7 @@ const Login = () => {
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className='loginFormContainer'>
@@ -83,7 +83,6 @@ const Login = () => {
                         required
                     />
                     <button className='loginButton btn1 mt-3 mb-3'>LOGIN</button>
-                    <hr className='pb-3' />
                     <Link to='/register'>Not registered? Click Here to Register</Link>
                 </form>
             </div>

@@ -12,7 +12,7 @@
     justify-content: center;
     background-color: black;
     width: 99vw;
-    padding-top: 85px;
+    padding-top: 70px;
 }
 
 .homeHeaderImg img {
@@ -29,8 +29,8 @@
     justify-content: center;
     letter-spacing: 1px;
     opacity: 0.9;
-    padding: 10px;
-    margin: 30px 0px;
+    padding: 10px 20px;
+    margin: 10px 0px;
 }
 
 .missionServiceContainer .faIcons {
@@ -38,7 +38,7 @@
 }
 
 .missionTitle {
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     padding: 20px 0px;
     opacity: 0.9;
@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 24px;
+    font-size: 22px;
     opacity: 0.9;
     padding-bottom: 20px;
     margin: 10px;
@@ -77,9 +77,8 @@
 }
 
 .servicesTitle {
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
-    padding: 10px 0px;
     opacity: 0.9;
 }
 
@@ -88,7 +87,7 @@
     align-items: center;
     justify-content: flex-start;
     list-style: none;
-    font-size: 24px;
+    font-size: 22px;
     padding: 10px;
     letter-spacing: 2px;
 }
@@ -112,9 +111,8 @@
 }
 
 .locationsTitle {
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
-    padding: 10px 0px;
     opacity: 0.9;
 }
 
@@ -123,7 +121,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 2px;
     padding: 10px;
 }
